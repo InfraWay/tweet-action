@@ -28,5 +28,5 @@ runs:
   main: "index.js"
 
 branding:
-  icon: "twitter"
+  icon: "message-circle"
   color: "blue"
