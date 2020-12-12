@@ -1,0 +1,32 @@
+name: "Tweet to Twitter"
+description: "Makes a twitter tweet"
+author: "InfraWay"
+
+inputs:
+  api_key:
+    description: "Api key"
+    required: true
+  api_key_secret:
+    description: "Api key secret"
+    required: true
+  access_token:
+    description: "Consumer access token"
+    required: true
+  access_token_secret:
+    description: "Consumer access token secret"
+    required: true
+  status:
+    description: "Status to be published to twitter"
+    required: true
+
+outputs:
+  title:
+    description: "Post's title"
+
+runs:
+  using: "node12"
+  main: "index.js"
+
+branding:
+  icon: "twitter"
+  color: "blue"

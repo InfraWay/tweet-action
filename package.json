@@ -1,0 +1,30 @@
+{
+  "name": "tweet-action",
+  "version": "1.0.0",
+  "description": "Github Action for making tweets",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/InfraWay/tweet-action.git"
+  },
+  "keywords": [
+    "github",
+    "actions",
+    "twitter",
+    "tweet",
+    "blog"
+  ],
+  "author": "Andrew Red <iam@andrew.red>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/InfraWay/tweet-action/issues"
+  },
+  "homepage": "https://github.com/InfraWay/tweet-action#readme",
+  "dependencies": {
+    "twitter-api-client": "^1.2.1"
+  }
+}
